@@ -1,0 +1,27 @@
+.primary-heading {
+  background-color: rgb(104, 103, 103);
+  color: white;
+  text-align: center;
+  padding: 1rem;
+  margin-bottom: 2rem;
+  font-size: 3rem;
+}
+
+.clear-btn {
+  background-color: red;
+  border: none;
+  border-radius: 5px;
+  font-size: 2rem;
+  padding: 1rem 3rem;
+  display: flex;
+  margin: 0 auto;
+}
+.clear-btn:hover {
+  background-color: rgb(235, 103, 103);
+  cursor: pointer;
+}
+
+.empty {
+  font-size: 2rem;
+  text-align: center;
+}

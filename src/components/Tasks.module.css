@@ -1,0 +1,35 @@
+.list {
+  list-style: none;
+  background-color: aliceblue;
+  padding: 2rem;
+  font-size: 1.6rem;
+  border-radius: 5px;
+  display: grid;
+  row-gap: 2rem;
+  margin-bottom: 3rem;
+}
+.list-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.btn {
+  background-color: grey;
+  color: white;
+  font-weight: bold;
+  padding: 1rem 2rem;
+  border: none;
+  border-radius: 1rem;
+}
+.btn:hover {
+  background-color: rgb(161, 159, 159);
+  cursor: pointer;
+}
+
+@media (max-width: 340px) {
+  .list-container {
+    flex-direction: column;
+    gap: 2rem;
+  }
+}

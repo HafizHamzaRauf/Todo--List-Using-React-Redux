@@ -1,0 +1,41 @@
+.form {
+  display: grid;
+  grid-template-columns: 80fr 20fr;
+  margin-bottom: 2rem;
+}
+
+.input {
+  padding: 1rem;
+  border: 1px solid rgb(196, 196, 196);
+}
+
+.btn {
+  border: none;
+  background-color: grey;
+  color: white;
+  font-size: 1.6rem;
+  font-weight: bold;
+}
+
+.btn:hover {
+  background-color: rgb(148, 138, 138);
+  cursor: pointer;
+}
+
+.error {
+  color: red;
+  text-align: center;
+  font-size: 1.5rem;
+}
+.invalid {
+  border-color: red;
+}
+@media (max-width: 340px) {
+  .input {
+    grid-column: 1/-1;
+  }
+  .btn {
+    grid-column: 1/-1;
+    padding: 1rem;
+  }
+}
